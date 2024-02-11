@@ -36,58 +36,6 @@ Ordering Points To Identify the Clustering Structure (OPTICS) is an extension of
 8. Birch Clustering
 BIRCH (Balanced Iterative Reducing and Clustering using Hierarchies) is a hierarchical clustering algorithm designed for large datasets. It incrementally builds a tree-like structure to represent the data, making it memory-efficient and suitable for streaming data.
 
-About The Notebook(Clustering.ipynb):
-Clustering.ipynb notebook is been generated to perform clustering on the dataset-Raisin_Dataset.csv.All the 8 type of clustering is been done on the dataset and got value of certain set of parameters mainly;Silhouette,Calinski-Harabasz,Davies-Bouldin
 
-First five rows of dataset:- image
 
-Elbow-Plot
 
-image
-
-Distribution-Plot: image
-
-Result of K-means after applying different normalization techniques:
-
-image
-
-Result of Affinity Propagation after applying different normalization techniques:
-
-image
-
-Result of Agglomerative Clustering after applying different normalization techniques:
-
-image
-
-Result of Mean shift clustering after applying different normalization techniques:
-
-image
-
-Result of Spectral Clustering after applying different normalization techniques:
-
-image
-
-Result of Density-Based Spatial Clustering after applying different normalization techniques:
-
-image
-
-Result of OPTICS Clustering after applying different normalization techniques:
-
-image
-
-Result of Birch Clustering after applying different normalization techniques:
-
-image
-
-Conclusions
-In context of no data preprocessing among the 8 types of clustering provided , the mean shift clustering gave the best silhouette value with no of clusters = 4
-
-In context of using normalization, among the 8 types of clustering provided , the Spectral Clustering gave the best silhouette value with no of clusters = 3
-
-In context of using transformation, among the 8 types of clustering provided , the Spectral Clustering gave the best silhouette value with no of clusters = 3
-
-In context of using PCA, among the 8 types of clustering provided , the Mean shift clustering gave the best silhouette value with no of clusters = 3
-
-In context of using normalization + transformation, among the 8 types of clustering provided , the Spectral Clustering gave the best silhouette value with no of clusters = 3
-
-In context of using normalization + transformation + PCA, among the 8 types of clustering provided , the Spectral Clustering gave the best silhouette value with no of clusters = 3
